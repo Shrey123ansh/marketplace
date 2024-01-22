@@ -1,0 +1,13 @@
+.component1-container {
+  display: flex;
+  position: relative;
+}
+.component1-image {
+  width:  1082px;
+  height:  46px;
+  margin-top: var(--dl-space-space-twounits);
+  object-fit: cover;
+  margin-left: var(--dl-space-space-fourunits);
+  margin-right: var(--dl-space-space-fourunits);
+  margin-bottom: var(--dl-space-space-twounits);
+}

@@ -1,0 +1,11 @@
+.component3-container {
+  flex: 0 0 auto;
+  width: 100%;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  height:  376px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  background-size: cover;
+  background-image: url("../../public/new ram/rectangle%2024-1500h.png");
+}

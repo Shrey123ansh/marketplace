@@ -1,0 +1,71 @@
+.app-component-container {
+  flex: 0 0 auto;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+}
+.app-component-image {
+  width: auto;
+  height:  220px;
+  object-fit: cover;
+  margin-left: var(--dl-space-space-twounits);
+}
+.app-component-container1 {
+  flex: 0 0 auto;
+  width: 280px;
+  height:  220px;
+  display: flex;
+  align-items: flex-start;
+  margin-left: var(--dl-space-space-twounits);
+  flex-direction: column;
+  justify-content: space-between;
+}
+.app-component-text {
+  color:  rgba(69, 90, 100, 1);
+  width: 279px;
+  font-size: 24px;
+  font-style: normal;
+  text-align: left;
+  font-weight: 600;
+}
+.app-component-button {
+  color: rgb(249, 76, 16);
+  width: 172px;
+  height: 56px;
+  font-style: normal;
+  font-weight: 600;
+  border-color: rgb(249, 76, 16);
+  border-width: 2px;
+  border-radius: 10px;
+  margin-bottom: 0px;
+  background-color: transparent;
+}
+
+
+@media(max-width: 1200px) {
+  .app-component-root-class-name {
+    margin-left: var(--dl-space-space-halfunit);
+  }
+  .app-component-root-class-name1 {
+    margin-left: var(--dl-space-space-halfunit);
+  }
+}
+@media(max-width: 479px) {
+  .app-component-image {
+    width: 208px;
+    height: 165px;
+    margin-left: 0px;
+  }
+  .app-component-container1 {
+    width: 191px;
+    height: 192px;
+  }
+  .app-component-text {
+    width: 186px;
+    height: 121px;
+    font-size: 18px;
+  }
+}

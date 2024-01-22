@@ -1,0 +1,68 @@
+.component4-container {
+  flex: 0 0 auto;
+  width:  350px;
+  height: 500px;
+  display: flex;
+  position: relative;
+  box-shadow: 5px 5px 10px 0px #d4d4d4,-5px 0px 10px 0px #d4d4d4;
+  align-items: center;
+  border-radius:  15px;
+  flex-direction: column;
+}
+.component4-container1 {
+  flex: 0 0 auto;
+  width: 100%;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  height:  376px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  background-size: cover;
+  background-image: url("../../public/new ram/rectangle%2024-1500h.png");
+}
+.component4-container2 {
+  width: 100%;
+  height: 24px;
+  display: flex;
+  align-items: center;
+}
+.component4-image {
+  width:  16.47px;
+  height: auto;
+  object-fit: cover;
+  margin-left: var(--dl-space-space-halfunit);
+}
+.component4-text {
+  color: rgb(38, 50, 56);
+  font-size: 12px;
+  margin-left: var(--dl-space-space-halfunit);
+}
+.component4-container3 {
+  width: 333px;
+  height: 40px;
+  display: flex;
+  align-items: flex-start;
+}
+.component4-text1 {
+  font-size: 10px;
+}
+.component4-container4 {
+  width: 100%;
+  height: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.component4-text2 {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  margin-left: var(--dl-space-space-unit);
+}
+.component4-button {
+  color: rgb(255, 255, 255);
+  font-style: normal;
+  font-weight: 600;
+  margin-right: var(--dl-space-space-unit);
+  background-color: rgb(38, 50, 56);
+}

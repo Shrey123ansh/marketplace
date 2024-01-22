@@ -9,7 +9,6 @@ import {
   roadmapDetails_phase_3,
   roadmapDetails_phase_4,
 } from "../constants";
-import { motion } from "framer-motion";
 import styles from "../styles/index";
 import { fadeIn, textVariant } from "../utils/motion";
 import Navbar from "./Navbar";
@@ -44,9 +43,7 @@ const RoadmapCard = ({ roadmap }) => {
       }
     >
       <div>
-        <h3 className="text-white text-[24px] font-bold">
-          {roadmap.title}
-        </h3>
+        <h3 className="text-white text-[24px] font-bold">{roadmap.title}</h3>
         {/* <p
             className="text-secondary text-[16px] font-semibold"
             style={{ margin: 0 }}
@@ -86,11 +83,11 @@ const Roadmap = () => {
   return (
     <div className="overflow-hidden">
       <Navbar />
-      <motion.div variants={textVariant()}>
+      <div variants={textVariant()}>
         {/* <p className={`${styles.sectionSubText} text-center`}>
             What I have done so far
           </p> */}
-        <motion.h2
+        <h2
           variants={fadeIn("left", "tween", 0.2, 1)}
           initial="hidden"
           whileInView="show"
@@ -98,10 +95,10 @@ const Roadmap = () => {
         >
           Phase 1:{" "}
           <span className="text-[#9548ee] ">Launch and Establishment</span>
-        </motion.h2>
-      </motion.div>
+        </h2>
+      </div>
 
-      <motion.div
+      <div
         variants={fadeIn("up", "tween", 0.2, 1)}
         initial="hidden"
         whileInView="show"
@@ -112,27 +109,25 @@ const Roadmap = () => {
             <RoadmapCard key={`roadmap-${index}`} roadmap={roadmap} />
           ))}
         </VerticalTimeline>
-      </motion.div>
+      </div>
 
       {/* Phase 2: */}
-      <motion.div variants={textVariant()}>
+      <div variants={textVariant()}>
         {/* <p className={`${styles.sectionSubText} text-center`}>
             What I have done so far
           </p> */}
-        <motion.h2
+        <h2
           variants={fadeIn("left", "tween", 0.2, 1)}
           initial="hidden"
           whileInView="show"
           className={`${styles.sectionHeadText} text-center mt-10`}
         >
           Phase 2:{" "}
-          <span className="text-[#9548ee] ">
-            Expansion and Collaboration
-          </span>
-        </motion.h2>
-      </motion.div>
+          <span className="text-[#9548ee] ">Expansion and Collaboration</span>
+        </h2>
+      </div>
 
-      <motion.div
+      <div
         variants={fadeIn("up", "tween", 0.2, 1)}
         initial="hidden"
         whileInView="show"
@@ -143,27 +138,25 @@ const Roadmap = () => {
             <RoadmapCard key={`roadmap-${index}`} roadmap={roadmap} />
           ))}
         </VerticalTimeline>
-      </motion.div>
+      </div>
 
       {/* Phase 3: */}
-      <motion.div variants={textVariant()}>
+      <div variants={textVariant()}>
         {/* <p className={`${styles.sectionSubText} text-center`}>
             What I have done so far
           </p> */}
-        <motion.h2
+        <h2
           variants={fadeIn("left", "tween", 0.2, 1)}
           initial="hidden"
           whileInView="show"
           className={`${styles.sectionHeadText} text-center mt-10`}
         >
           Phase 3:{" "}
-          <span className="text-[#9548ee] ">
-            Integration and Engagement
-          </span>
-        </motion.h2>
-      </motion.div>
+          <span className="text-[#9548ee] ">Integration and Engagement</span>
+        </h2>
+      </div>
 
-      <motion.div
+      <div
         variants={fadeIn("up", "tween", 0.2, 1)}
         initial="hidden"
         whileInView="show"
@@ -174,27 +167,25 @@ const Roadmap = () => {
             <RoadmapCard key={`roadmap-${index}`} roadmap={roadmap} />
           ))}
         </VerticalTimeline>
-      </motion.div>
+      </div>
 
       {/* Phase 4: */}
-      <motion.div variants={textVariant()}>
+      <div variants={textVariant()}>
         {/* <p className={`${styles.sectionSubText} text-center`}>
             What I have done so far
           </p> */}
-        <motion.h2
+        <h2
           variants={fadeIn("left", "tween", 0.2, 1)}
           initial="hidden"
           whileInView="show"
           className={`${styles.sectionHeadText} text-center mt-10`}
         >
           Phase 4:{" "}
-          <span className="text-[#9548ee] ">
-            Diversification and Legacy
-          </span>
-        </motion.h2>
-      </motion.div>
+          <span className="text-[#9548ee] ">Diversification and Legacy</span>
+        </h2>
+      </div>
 
-      <motion.div
+      <div
         variants={fadeIn("up", "tween", 0.2, 1)}
         initial="hidden"
         whileInView="show"
@@ -205,7 +196,7 @@ const Roadmap = () => {
             <RoadmapCard key={`roadmap-${index}`} roadmap={roadmap} />
           ))}
         </VerticalTimeline>
-      </motion.div>
+      </div>
     </div>
   );
 };

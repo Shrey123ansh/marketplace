@@ -1,0 +1,48 @@
+.component2-container {
+  flex: 0 0 auto;
+  width:  520px;
+  height:  310px;
+  display: flex;
+  position: relative;
+  margin-top: var(--dl-space-space-threeunits);
+  align-items: center;
+  border-radius: 5px;
+  margin-bottom: var(--dl-space-space-threeunits);
+  flex-direction: column;
+  background-size: cover;
+  background-image: url("../../public/rectangle%2045-1500h.png");
+}
+.component2-container1 {
+  flex: 0 0 auto;
+  width: 80%;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  margin-left: 0px;
+}
+.component2-text {
+  color: rgb(249, 76, 16);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+}
+.component2-container2 {
+  gap: var(--dl-space-space-unit);
+  width: 80%;
+  height: 212px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.component2-text1 {
+  color: rgb(255, 255, 255);
+  font-size: 14px;
+}
+.component2-text2 {
+  color: rgb(255, 255, 255);
+  font-size: 14px;
+}
+.component2-text3 {
+  color: rgb(255, 255, 255);
+  font-size: 14px;
+}
